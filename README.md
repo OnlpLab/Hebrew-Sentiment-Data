@@ -1,5 +1,5 @@
 # Hebrew-Sentiment-Data
-A cleaned version of the Hebrew Sentiment data set published by Amram, A., Ben-David, A., and Tsarfaty, R. (2018).[1]
+A cleaned version of the Hebrew Sentiment data set published by Amram, A., Ben-David, A., and Tsarfaty, R. (2018).{1} 
 Original dataset can be found under the omilab [Github][1].  
 
 Since we discovered that there was a data leakage (shared material between test and train) we provide a cleaned version without duplications and with removal of text that is almost identical. (for example 2 samples that say "I love you!" and "I love you!!" considerd identical), with a new split of train-dev-test, instead of the original train-test. We provide in this repository both the new clean data and both the full deduping code.
@@ -29,4 +29,4 @@ Since we discovered that there was a data leakage (shared material between test 
 
 
 [1]:  https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew
-[ 1 ]  Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew. In: Proceedings of The 27th International Conference on Computational Linguistics (COLING 2018) Santa Fe, NM, (pp. 2242-2252).
+{1}  Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew. In: Proceedings of The 27th International Conference on Computational Linguistics (COLING 2018) Santa Fe, NM, (pp. 2242-2252).
