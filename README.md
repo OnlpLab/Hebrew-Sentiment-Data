@@ -5,14 +5,15 @@ Original dataset can be found under the omilab [Github][1].
 Since reported the data to be leaking (shared material between test and train) we provide a cleaned up version, with a new split of train-dev-test, instead of the original train-test. We provide in this repository both the new clean data and both the deduping code.
 
 
-Data and cleaning process information (for token level - morph is the same with minor difference):  
+### Data and cleaning process information (for token level - morph is the same with minor difference):  
+
 | Data set | Original Set sizes | Deduped Set sizes - Token     | Deduped Set sizes - Morph | Comment    |
 | -------- | --------------     |--------------------           |--------------             |------------|
 | Train    | 9220               |   5926                        |5932                       |            |
 | Dev      | 1026               |   846                         |847                        | Originally didn't exist and was part of the train|
 | Test     | 2561               |   1695                        |1696                       |             |
  
-###   duplication within the sets:  
+###   Duplication within the sets:  
 
 | Data set | Leakage percentage |
 | -------- | -------------- |
@@ -20,7 +21,7 @@ Data and cleaning process information (for token level - morph is the same with 
 | Dev      | 3.8%           |
 | Test     | 7.53%          |
 
-Leakage between data sets: 
+#### Leakage between data sets: 
 
 | Data set | Leakage |
 | -------- | -------------- |
