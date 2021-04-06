@@ -29,4 +29,4 @@ Since we discovered that there was a data leakage (shared material between test 
 
 
 [1]:  https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew
-[1]  Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew. In: Proceedings of The 27th International Conference on Computational Linguistics (COLING 2018) Santa Fe, NM, (pp. 2242-2252).
+[ 1 ]  Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew. In: Proceedings of The 27th International Conference on Computational Linguistics (COLING 2018) Santa Fe, NM, (pp. 2242-2252).
